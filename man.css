@@ -1,0 +1,56 @@
+/* Reset default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling with light orange and green background */
+.header {
+    background: linear-gradient(to right, #FFD700, #32CD32);
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Main content area with white background */
+.main-content {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Styling for the content text */
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Styling for the image */
+.image {
+    flex: 1;
+    text-align: center;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    text-align: right;
+}
+
+.cta-button {
+    background-color: lightgreen;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer styling with the same background as the header */
+.footer {
+    background: linear-gradient(to right, #FFD700, #32CD32);
+    text-align: center;
+    padding: 10px 0;
+}
